@@ -38,7 +38,7 @@ horizontal: false
 <div class="people">
   <!-- Display categorized people -->
   {%- for category in page.display_categories | sort: "category"  %}
-  <h2 class="category" name="{{ category | downcase | remove: " " }}" >{{ category }}</h2>
+  <a name="{{ category | downcase | remove: " " }}"><h2 class="category">{{ category }}</h2></a>
   {%- assign categorized_people = site.people | where: "category", category -%}
   {%- assign sorted_people = categorized_people | sort: "lastname" %}
   <!-- Generate cards for each person -->

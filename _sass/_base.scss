@@ -451,6 +451,15 @@ footer.sticky-bottom {
     margin-right: 0.25em;
   }
 
+  h2.grid-title {
+    color: var(--global-text-color);
+    border-bottom: 5px solid var(--global-theme-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
   h2.category {
     color: var(--global-text-color-light);
     border-bottom: 2px solid var(--global-divider-color);

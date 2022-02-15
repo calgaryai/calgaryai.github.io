@@ -4,21 +4,21 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Calgary
-middle_name: ML
-last_name: Lab
+middle_name:
+last_name: AI
 email: yani.ioannou@ucalgary.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Calgary Machine Learning Lab
+  Calgary Artificial Intelligence
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/calgaryml/calgaryml.github.io">customized theme</a> based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/calgaryml/calgaryal.github.io">customized theme</a> based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos &copy; Yani Ioannou.
-keywords: calgary, ucalgary, university of calgary, machine learning, ml, deep learning, lab, research group, yani ioannou, academic-website # add your own keywords or leave empty
+keywords: calgary, ucalgary, university of calgary, machine learning, ml, deep learning, artificial intelligence, AI, academic-website # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon
-logo: /assets/img/ucmllogo-text.svg
-url: https://calgaryml.com # the base hostname & protocol for your site
+logo: assets/img/calgaryailogo-light.svg
+url: https://calgaryai.org # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -49,15 +49,15 @@ max_width: 800px
 # Display links to the page with a preview object on social media.
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: /assets/img/ucmllogo-og.png # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/calgaryailogo-og.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: calgaryml # your GitHub user name
+github_username: calgaryai # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: UCalgaryML # your Twitter handle
+twitter_username: CalgaryAI # your Twitter handle
 # linkedin_username: yanii # your LinkedIn user name
 # scholar_userid: Qy9yv44AAAAJ # your Google Scholar ID
 # orcid_id: 0000-0002-9797-5888 # your ORCID ID
@@ -82,7 +82,7 @@ stackoverflow_id: #your stackoverflow id
 #   <dt>Media</dt><dd>Please reach out to the media contact listed <a href="https://profiles.ucalgary.ca/yani-ioannou">here</a>.</dd>
 #   </dl>
 
-google_analytics:  G-T1LVR8501M # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
@@ -155,7 +155,7 @@ plugins:
   - jekyll-imagemagick
   - jekyll-paginate-v2
   - jekyll-responsive-image
-  - jekyll/scholar
+  # - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-twitter-plugin
@@ -204,32 +204,32 @@ jekyll-archives:
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-scholar:
+# scholar:
 
-  last_name: Ioannou
-  first_name: [Yani, Yani Andrew, Yani A., Y., Y.A.]
+#   last_name: Ioannou
+#   first_name: [Yani, Yani Andrew, Yani A., Y., Y.A.]
 
-  style: apa
-  locale: en
+#   style: apa
+#   locale: en
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+#   source: /_bibliography/
+#   bibliography: papers.bib
+#   bibliography_template: bib
+#   # Note: if you have latex math in your bibtex, the latex filter
+#   # preprocessing may conflict with MathJAX if the latter is enabled.
+#   # See https://github.com/alshedivat/al-folio/issues/357.
+#   bibtex_filters: [latex, smallcaps, superscript]
 
-  replace_strings: true
-  join_strings: true
+#   replace_strings: true
+#   join_strings: true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+#   details_dir: bibliography
+#   details_layout: bibtex.html
+#   details_link: Details
 
-  query: "@*"
+#   query: "@*"
   
-  relative: "/publications/"
+#   relative: "/publications/"
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -275,8 +275,6 @@ enable_tooltips:            false  # enables automatic tooltip links generated
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
 enable_place_categories:    false  # enables categorization of places into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)

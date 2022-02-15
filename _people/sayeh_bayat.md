@@ -10,6 +10,6 @@ email: sayeh.bayat@ucalgary.ca
 scholar_userid: 0Xxst2gAAAAJ
 twitter_username: SayehBayat
 linkedin_username: sayehbayat
-category: [Machine Learning, ]
+category: [Applied Machine Learning, ]
 show: true
 ---

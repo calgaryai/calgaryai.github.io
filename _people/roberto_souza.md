@@ -11,7 +11,7 @@ github: rmsouza01
 email: roberto.medeirosdeso@ucalgary.ca
 scholar_userid: G2V4oBIAAAAJ
 twitter_username: ai2lab
-category: [Machine Learning, Medical Imaging]
+category: [Applied Machine Learning, Medical Imaging]
 show: true
 ---
 

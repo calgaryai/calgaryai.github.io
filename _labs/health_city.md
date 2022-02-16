@@ -1,8 +1,8 @@
 ---
 layout: page
-name: The Health City Lab
+name: Health City Lab
 description: The Health City Lab
-img: https://static.wixstatic.com/media/dea1fb_177a65a94372441982023eea1045c6c6~mv2.png/v1/crop/x_0,y_170,w_500,h_145/fill/w_333,h_96,al_c,usm_0.66_1.00_0.01/Minimalist%20Letter%20Fashion%20Logo%20(1).png
+img: assets/img/healthycitylab_logo.webp
 redirect: https://www.healthycitylab.ca
 category: [Geomatics Engineering, Biomedical Engineering]
 ---

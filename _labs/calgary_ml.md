@@ -1,6 +1,6 @@
 ---
 layout: page
-name: Calgary Machine Learning Lab
+name: Calgary ML
 description: Calgary Machine Learning Lab
 img: assets/img/calgarymllab-logo.svg
 redirect: https://calgaryml.com

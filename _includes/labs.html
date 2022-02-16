@@ -7,14 +7,24 @@
       <a href="{{ lab.url | relative_url }}">
       {%- endif %}
         <div class="card hoverable">
-          {%- if lab.img %}
-            {%- include figure.html 
-              path=lab.img 
-              alt="Thumbnail" class="img-fluid rounded z-depth-0" -%}
-          {%- endif %}
-          <div class="card-body">
-            <h2 class="card-title text-capitalize">{{ lab.name }}</h2>
-            <h3 class="card-text">{{ lab.description }}</h3>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                {%- if lab.img %}
+                  {%- include figure.html 
+                    path=lab.img 
+                    alt="Thumbnail" class="img-fluid rounded z-depth-0" -%}
+                {%- else %}
+                  <h1 class="card-title">{{ lab.name }}</h1>
+                {%- endif %}
+                <h3 class="card-text">{{ lab.description }}</h3>
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <span class="card-text">{{ lab.content }}</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </a>

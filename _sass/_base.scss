@@ -541,7 +541,9 @@ footer.sticky-bottom {
     }
     .card-title {
       text-align: center;
-      color: var(--global-text-color)
+      font-size: 4em;
+      color: var(--global-text-color);
+      text-transform: capitalize;
     }
     .card-icons {
       text-align: center;

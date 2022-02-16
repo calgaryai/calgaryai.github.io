@@ -9,7 +9,7 @@
         <div class="card hoverable">
           <div class="container">
             <div class="row">
-              <div class="col">
+              <div class="col-4">
                 {%- if lab.img %}
                   {%- include figure.html 
                     path=lab.img 
@@ -18,10 +18,17 @@
                   <h1 class="card-title">{{ lab.name }}</h1>
                 {%- endif %}
                 <h3 class="card-text">{{ lab.description }}</h3>
+                <p class="card-text">
+                {% if lab.redirect -%}
+                <a href="{{ lab.redirect }}">{{ lab.redirect }}</a>
+                {%- else -%}
+                <a href="{{ lab.url | relative_url }}">{{ lab.redirect }}</a>
+                {%- endif %}
+                </p>
               </div>
-              <div class="col">
+              <div class="col-8">
                 <div class="card-body">
-                  <span class="card-text">{{ lab.content }}</span>
+                  <span class="card-content">{{ lab.content }}</span>
                 </div>
               </div>
             </div>

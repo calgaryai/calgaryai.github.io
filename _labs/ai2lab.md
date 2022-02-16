@@ -4,6 +4,7 @@ name: AI<sup>2</sup>Lab
 description: Advanced Imaging and Artificial Intelligence Lab
 # img: assets/img/calgarymllab-logo.svg
 redirect: https://www.ai2lab.ca
+faculty: /people/robertosouza.md
 category: [Electrical and Software Engineering, Hotchkiss Brain Institute]
 ---
 

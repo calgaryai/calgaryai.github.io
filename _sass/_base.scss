@@ -562,7 +562,10 @@ footer.sticky-bottom {
     }
     .card-text {
       text-align: center;
-      font-size: larger
+      font-size: larger;
+    }
+    .card-content {
+      text-align: justify;
     }
     .card-pronouns {
       text-align: center;
@@ -584,7 +587,7 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width: 15em;
+    width: auto;
     margin-bottom: 0.5em;
     margin-left: 0.25em;
     margin-right: 0.25em;

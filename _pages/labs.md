@@ -12,15 +12,15 @@ display_categories: [Geomatics Engineering, Electrical and Software Engineering,
 {%- if site.enable_lab_categories and page.display_categories %}
   <!-- Display categorized labs -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_labs = site.labs | where: "category", category -%}
-  {%- assign sorted_labs = categorized_labs | sort: "name" %}
-  <!-- Generate cards for each project -->
-  <div class="grid">
-    {%- for labs in sorted_labs -%}
-      {% include labs.html %}
-    {%- endfor %}
-  </div>
+    <h2 class="category">{{ category }}</h2>
+    {%- assign categorized_labs = site.labs | where: "category", category -%}
+    {%- assign sorted_labs = categorized_labs | sort: "name" %}
+    <!-- Generate cards for each project -->
+    <div class="grid">
+      {%- for lab in sorted_labs -%}
+        {% include labs.html %}
+      {%- endfor %}
+    </div>
   {% endfor %}
 
 {%- else -%}
@@ -28,7 +28,7 @@ display_categories: [Geomatics Engineering, Electrical and Software Engineering,
   {%- assign sorted_labs = site.labs | sort: "name" -%}
   <!-- Generate cards for each project -->
   <div class="grid">
-    {%- for labs in sorted_labs -%}
+    {%- for lab in sorted_labs -%}
       {% include labs.html %}
     {%- endfor %}
   </div>

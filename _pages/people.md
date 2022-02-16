@@ -6,7 +6,6 @@ description: Faculty Members
 nav: true
 nav-order: 1
 display_categories: [Computer Vision, Machine Learning, Applied Machine Learning, Medical Imaging]
-horizontal: false
 ---
 
 <!-- pages/people.md -->

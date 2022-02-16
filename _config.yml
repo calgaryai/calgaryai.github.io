@@ -111,6 +111,9 @@ collections:
   places:
     output: true
     permalink: /places/:path/
+  labs:
+    output: true
+    permalink: /labs/:path/
 
 news_limit: 5
 
@@ -242,6 +245,8 @@ enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_place_categories:    false  # enables categorization of places into
+                                   # multiple categories
+enable_lab_categories:      false  # enables categorization of places into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 

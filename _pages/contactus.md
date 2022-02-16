@@ -30,6 +30,6 @@ Please reach out by e-mail directly to any of our faculty, or to Yani Ioannou if
 
 <div class="social">
     <div class="contact-icons">
-    {% include social.html %}
+    {% include social.html entity=site%}
     </div>
 </div>

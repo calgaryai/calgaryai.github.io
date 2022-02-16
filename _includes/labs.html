@@ -25,6 +25,9 @@
                 <a href="{{ lab.url | relative_url }}">{{ lab.redirect }}</a>
                 {%- endif %}
                 </p>
+                <div class="card-icons icon">
+                  {% include social.html entity=lab %}
+                </div>
               </div>
               <div class="col-8">
                 <div class="card-body">

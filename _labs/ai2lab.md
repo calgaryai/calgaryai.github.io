@@ -6,6 +6,8 @@ description: Advanced Imaging and Artificial Intelligence Lab
 redirect: https://www.ai2lab.ca
 faculty: /people/robertosouza.md
 category: [Electrical and Software Engineering, Hotchkiss Brain Institute]
+twitter_username: lab_ai2
+website_url: https://www.ai2lab.ca
 ---
 
 The Calgary Machine Learning Lab is a research group led by [Roberto Souza](/_people/roberto_souza.md) within the Schulich School of Engineering at the University of Calgary.

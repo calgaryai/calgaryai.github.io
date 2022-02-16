@@ -1,27 +1,16 @@
 ---
 layout: page
 title: people
-permalink: /people/
-description: Faculty Members
-nav: true
-nav-order: 1
+permalink: /people_researcharea/
+description: Faculty Members by Research Area
+nav: false
 display_categories: [Computer Vision, Machine Learning, Applied Machine Learning, Medical Imaging]
 ---
 
 <!-- pages/people.md -->
 <div class="people">
-  {%- assign sorted_people = site.people | sort: "lastname" %}
-<!-- Generate cards for each person -->
 
-<h2 class="grid-title">Faculty</h2>
-
-<div class="grid">
-    {%- for person in sorted_people -%}
-    {%- if person.show -%}
-      {% include people.html %}
-    {%- endif -%}
-  {%- endfor %}
-</div>
+{% include people_view_header.html %}
 
 <h2 class="grid-title">Faculty by Research Area</h2>
 
@@ -51,4 +40,6 @@ display_categories: [Computer Vision, Machine Learning, Applied Machine Learning
     {%- endfor %}
   </div>
   {% endfor %}
+</div>
+
 </div>

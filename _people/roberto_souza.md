@@ -4,7 +4,7 @@ firstname: Roberto
 lastname: Souza
 pronouns: he/him
 title: Assistant Professor
-department: Department of Electrical and Software Engineering, Schulich School of Engineering
+affiliations: [Dept. of Electrical and Software Engineering, Hotchkiss Brain Institute]
 img: assets/img/people/robertosouza.jpg
 redirect: https://ai2lab.ca
 github: rmsouza01

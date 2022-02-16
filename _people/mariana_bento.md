@@ -4,7 +4,7 @@ firstname: Mariana
 lastname: Bento
 pronouns: she/her
 title: Assistant Professor
-department: Department of Biomedical Engineering, Schulich School of Engineering/Hotchkiss Brain Institute
+affiliations: [Dept. of Biomedical Engineering, Dept. of Electrical and Software Engineering, Hotchkiss Brain Institute]
 img: assets/img/people/marianabento.jpg
 redirect: https://profiles.ucalgary.ca/mariana-bento
 email: mariana.pinheirobent@ucalgary.ca

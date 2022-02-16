@@ -246,9 +246,10 @@ enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_place_categories:    false  # enables categorization of places into
                                    # multiple categories
-enable_lab_categories:      false  # enables categorization of places into
+enable_lab_categories:      true  # enables categorization of places into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+people_views:               [Last Name, Research Area, Affiliation]  # List of views of people.
 
 
 # -----------------------------------------------------------------------------

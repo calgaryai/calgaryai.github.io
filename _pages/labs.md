@@ -11,7 +11,8 @@ display_categories: [Geomatics Engineering, Electrical and Software Engineering,
 <div class="labs">
 {%- if site.enable_lab_categories and page.display_categories %}
   <!-- Display categorized labs -->
-  {%- for category in page.display_categories %}
+  {%- assign sorted_categories = page.display_categories | sort %}
+  {%- for category in sorted_categories %}
     <h2 class="category">{{ category }}</h2>
     {%- assign categorized_labs = site.labs | where: "category", category -%}
     {%- assign sorted_labs = categorized_labs | sort: "name" %}

@@ -5,6 +5,7 @@ description: The Health City Lab
 img: assets/img/healthycitylab_logo.webp
 redirect: https://www.healthycitylab.ca
 category: [Geomatics Engineering, Biomedical Engineering]
+website_url: https://www.healthycitylab.ca
 ---
 
 The Calgary Machine Learning Lab is a research group led by [Sayeh Bayat](/_people/sayeh_bayat.md) within the Schulich School of Engineering at the University of Calgary.

@@ -64,3 +64,14 @@ text.ucalgary-outline-color {
   border-color: var(--global-background-color);
   border-width: 2pt;
 }
+
+/* not active */
+.nav-pills .pill .nav-link:not(.active) {
+  background-color: var(--global-background-color);
+}
+
+/* active */
+.nav-pills .nav-link.active {
+  background-color: var(--global-theme-color);
+  color: var(--global-text-color);
+}

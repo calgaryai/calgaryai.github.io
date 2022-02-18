@@ -2,7 +2,7 @@
 layout: page
 name: Health City Lab
 description: The Health City Lab
-img: assets/img/healthycitylab_logo.webp
+img: assets/img/healthycitylab_logo.png
 redirect: https://www.healthycitylab.ca
 category: [Geomatics Engineering, Biomedical Engineering]
 website_url: https://www.healthycitylab.ca

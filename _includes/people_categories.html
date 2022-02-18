@@ -1,7 +1,8 @@
 
 {%- assign categories = include.categories  -%}
+{%- assign category_attribute = include.category_attribute -%}
 
-{%- assign sorted_categories = categories | sort: "category"  %}
+{%- assign sorted_categories = categories | sort  %}
 <div class="grid">
     {%- for category in sorted_categories -%}
         <div class="grid-item">
@@ -15,7 +16,7 @@
 <!-- Display categorized people -->
 {%- for category in sorted_categories  %}
     <a name="{{ category | downcase | remove: " " }}"><h2 class="category">{{ category }}</h2></a>
-    {%- assign categorized_people = site.people | where: "category", category -%}
+    {%- assign categorized_people = site.people | where: category_attribute, category -%}
     {%- assign sorted_people = categorized_people | sort: "lastname" %}
     <!-- Generate cards for each person -->
     <div class="grid">

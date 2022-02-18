@@ -6,11 +6,11 @@ description: Faculty Members
 nav: true
 nav-order: 1
 research_categories: [Computer Vision, Machine Learning, Applied Machine Learning, Medical Imaging]
-affiliations: [Dept. of Electrical and Software Engineering, Dep. of Biomedical Engineering, Dept. of Geomatics Engineering, Hotchkiss Brain Institute]
+affiliations: [Electrical and Software Engineering, Biomedical Engineering, Geomatics Engineering, Hotchkiss Brain Institute]
 ---
 
 <div class="people">
-  <h2 class="grid-title">Faculty Alphabetically by Last Name</h2>
+  <h2 class="grid-title">All Affiliated Faculty</h2>
   {%- assign sorted_people = site.people | sort: "lastname" %}
   <!-- Generate cards for each person -->
   <div class="grid">
@@ -22,8 +22,8 @@ affiliations: [Dept. of Electrical and Software Engineering, Dep. of Biomedical 
   </div>
 
   <h2 class="grid-title">Faculty by Research Area</h2>
-  {% include people_categories.html categories=page.research_categories %}
+  {% include people_categories.html categories=page.research_categories category_attribute="category" %}
 
   <h2 class="grid-title">Faculty by Affiliation</h2>
-  {% include people_categories.html categories=page.affiliations %}
+  {% include people_categories.html categories=page.affiliations category_attribute="affiliations" %}
 </div>

@@ -463,6 +463,12 @@ footer.sticky-bottom {
     text-align: left;
   }
 
+  .categories {
+    .grid-item {
+      width: auto;
+    }
+  }
+
   .category {
     color: var(--global-text-color-light);
     border-bottom: 2px solid var(--global-divider-color);

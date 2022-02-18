@@ -3,7 +3,7 @@
 {%- assign category_attribute = include.category_attribute -%}
 
 {%- assign sorted_categories = categories | sort  %}
-<div class="grid">
+<div class="grid categories">
     {%- for category in sorted_categories -%}
         <div class="grid-item">
             <h3 class="card hoverable">

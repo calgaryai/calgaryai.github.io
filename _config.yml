@@ -226,8 +226,8 @@ imagemagick:
 # Jekyll Favicons
 # -----------------------------------------------------------------------------
 
-# favicon:
-#   source: /assets/img/calgaryailogo.svg
+favicon:
+  source: /assets/img/calgaryailogo.svg
 
 # -----------------------------------------------------------------------------
 # Optional Features

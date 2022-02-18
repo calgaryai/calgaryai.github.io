@@ -212,9 +212,6 @@ imagemagick:
     - 1400
   input_directories:
     - assets/img/
-    - assets/img/calgaryphotos/
-    - assets/img/banffphotos/
-    - assets/img/people/
   input_formats:
     - ".jpg"
     - ".jpeg"

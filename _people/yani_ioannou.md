@@ -4,7 +4,7 @@ firstname: Yani
 lastname: Ioannou
 pronouns: he/him
 title: Assistant Professor
-affiliations: [Dept. of Electrical and Software Engineering]
+affiliations: [Electrical and Software Engineering]
 img: assets/img/people/yaniioannou.jpg
 redirect: https://yani.ai
 orcid_id: 0000-0002-9797-5888

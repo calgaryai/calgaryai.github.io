@@ -23,9 +23,12 @@
           <div class="card-body">
             <h4 class="card-title mt-1">{{ person.title }}</h4>
             {% assign sorted_affiliations = person.affiliations | sort %}
-            {% for affiliation in sorted_affiliations %}
-            <h4 class="card-text mt-1">{{ affiliation }}</h4>
-            {% endfor %}
+            {%- capture affiliation_string -%}
+              {% for affiliation in sorted_affiliations %}, {{ affiliation | strip }}{% endfor %}
+            {%- endcapture -%}
+            <h4 class="card-text mt-1">
+            {{ affiliation_string | remove_first: ', '}}
+            </h4>
           </div>
         </div>
       </a>

@@ -33,7 +33,6 @@ jobs:
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
         npm install -g mermaid.cli
-        apt install librsvg2-bin imagemagick
     - name: Setup deploy options
       id: setup
       run: |

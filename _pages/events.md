@@ -1,10 +1,11 @@
 ---
 layout: page
 title: events
-permalink: /calendar/
-description: Calgary AI Upcoming Events
+permalink: /events/
+description: 
 nav: true
 nav-order: 3
+ical: https://calendar.google.com/calendar/ical/0h136a1ol57kjhjm5oqm0kibao%40group.calendar.google.com/public/basic.ics
 ---
 <!-- <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@5/main.min.js" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@5/main.js" referrerpolicy="no-referrer"></script>
@@ -32,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     // plugins: [DayGridPlugin, iCalendarPlugin],
     events: {
-      url: "https://calendar.google.com/calendar/ical/0h136a1ol57kjhjm5oqm0kibao%40group.calendar.google.com/public/basic.ics",
+      url: "{{ page.ical }}",
       format: "ics",
     },
   });
@@ -40,4 +41,5 @@ document.addEventListener("DOMContentLoaded", function () {
   calendar.render();
 });
 </script>
+<div class="post-description">Events Calendar: <a href="{{ page.ical }}">Subscribe <i class="fas fa-calendar"></i></a></div>
 <div id='calendar'></div>

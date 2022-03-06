@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Calgary
 middle_name:
 last_name: AI
-email: yani.ioannou@ucalgary.ca
+email: calgaryai@ucalgary.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Calgary Artificial Intelligence
 long_description: "Calgary Artificial Intelligence is a group of researchers and research labs at the University of Calgary whose research primarily involves pure or applied research in Artificial Intelligence, including Machine Learning (ML), Computer Vision, Medical Imaging, and 3D Computer Vision."

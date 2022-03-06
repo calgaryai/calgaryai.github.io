@@ -75,3 +75,47 @@ text.ucalgary-outline-color {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+.banner {
+  background-attachment: fixed;
+  background-image: url("/assets/img/overlay.png"), url("/assets/img/calgaryphotos/calgaryskylineclose.jpg");
+  background-position: center top;
+  background-size: cover;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.banner-content {
+  padding: 4em 0 13em;
+  line-height: 1.75;
+  text-align: top;
+  font-size: 1.5em;
+  font-weight: 600;
+
+  a, p, h1, h2, h3, h4, h5, h6, em {
+    color: var(--global-theme-color);
+  };
+
+  strong {
+    color: var(--global-theme-color);
+    font-weight: 800;
+  }
+}
+
+.banner-logo {
+  padding-top: 4em;
+  padding-bottom: 1em;
+  align: center;
+  text-align: center;
+  margin: auto;
+
+  @media (min-width: 768px) {
+    width: 60%;
+  }
+}
+
+.banner-footer {
+  a, p, h1, h2, h3, h4, h5, h6, em {
+    color: var(--global-theme-color);
+  };
+}

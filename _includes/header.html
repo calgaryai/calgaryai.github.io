@@ -4,7 +4,7 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.title != "about" -%}
+          {% if page.title != "home" -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
               {%- if site.logo != "blank" -%}
               <img class="navbar" src="{{ site.logo | relative_url }}" alt="{{ site.title }}"></img>
@@ -32,14 +32,14 @@
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
 
-              <!-- About -->
-              <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">about
-                  {%- if page.title == "about" -%}
+              <!-- home -->
+              <!-- <li class="nav-item {% if page.title == 'home' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/' | relative_url }}">home
+                  {%- if page.title == "home" -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-              </li>
+              </li> -->
               {% if site.blog_name %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">

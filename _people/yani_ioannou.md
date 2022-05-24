@@ -13,6 +13,6 @@ github: yanii
 email: yani.ioannou@ucalgary.ca
 scholar_userid: Qy9yv44AAAAJ
 twitter_username: yaniioannou
-category: [Computer Vision, Machine Learning]
+category: [Computer Vision, Machine Learning, Algorithmic Bias, Environmental Impact of AI]
 show: true
 ---

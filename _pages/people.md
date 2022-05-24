@@ -5,8 +5,8 @@ permalink: /people/
 description: Faculty Members
 nav: true
 nav-order: 1
-research_categories: [Computer Vision, Machine Learning, Applied Machine Learning, Medical Imaging]
-affiliations: [Electrical and Software Engineering, Biomedical Engineering, Geomatics Engineering, Hotchkiss Brain Institute]
+research_categories: [Computer Vision, Machine Learning, Applied Machine Learning, Medical Imaging, AI and Law, Ethical AI, Algorithmic Bias, Environmental Impact of AI]
+affiliations: [Electrical and Software Engineering, Biomedical Engineering, Geomatics Engineering, Hotchkiss Brain Institute, Faculty of Law]
 ---
 
 <div class="people">

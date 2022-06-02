@@ -5,7 +5,7 @@ permalink: /events/
 description: 
 nav: true
 nav-order: 3
-ical: https://calendar.google.com/calendar/ical/0h136a1ol57kjhjm5oqm0kibao%40group.calendar.google.com/public/basic.ics
+ical: https://outlook.office365.com/owa/calendar/7f3479c6d7014b759936ad4deaa75532@ucalgary.ca/43f79921d9c04145b3184aa1a5dcea9e13087491525648217447/calendar.ics
 ---
 <!-- <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@5/main.min.js" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@5/main.js" referrerpolicy="no-referrer"></script>

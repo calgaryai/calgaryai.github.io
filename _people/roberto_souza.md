@@ -4,7 +4,7 @@ firstname: Roberto
 lastname: Souza
 pronouns: he/him
 title: Assistant Professor
-affiliations: [Electrical and Software Engineering, Hotchkiss Brain Institute]
+affiliations: [Electrical and Software Engineering]
 img: assets/img/people/robertosouza.jpg
 redirect: https://ai2lab.ca
 github: rmsouza01

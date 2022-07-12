@@ -2,6 +2,7 @@
 layout: page
 firstname: Sayeh
 lastname: Bayat
+pronouns: she/her
 title: Assistant Professor
 affiliations: [Biomedical Engineering, Geomatics Engineering]
 img: assets/img/people/sayehbayat.jpg

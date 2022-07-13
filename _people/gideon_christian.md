@@ -2,6 +2,7 @@
 layout: page
 firstname: Gideon
 lastname: Christian
+pronouns: he/him
 title: Assistant Professor
 affiliations: [Faculty of Law]
 img: assets/img/people/gideonchristian.jpg

@@ -2,7 +2,7 @@
 layout: page
 name: Calgary Intelligent Secure Hardware Group
 description: The Calgary Intelligent Secure Hardware Group
-img: assets/img/calgaryish.png
+img: assets/img/calgaryish.jpg
 redirect: http://lab.calgaryish.com
 category: [Electrical and Software Engineering]
 website_url: http://lab.calgaryish.com

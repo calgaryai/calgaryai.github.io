@@ -15,4 +15,6 @@ news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 **Calgary Artificial Intelligence**
-is a group of researchers and research labs at the [University of Calgary](https://www.ucalgary.ca) whose research primarily involves pure or applied research in Artificial Intelligence, including Machine Learning (ML), Computer Vision, Medical Imaging, and 3D Computer Vision. 
+The University of Calgary has many faculty members developing cutting-edge AI research. Calgary has a vibrant technology ecosystem with many startups and established companies using Artificial Intelligence (AI). The Calgary AI group was established in February 2022 to serve as a bridge to connect academia, industry, and the local community to promote AI research, education, and development.
+
+Our group comprises a diverse set of researchers and research labs across multiple departments and faculties at the University of Calgary. Our mission is to develop high-impact research in AI, train the next generation of AI leaders and researchers, and give back to the local community of the city of Calgary.

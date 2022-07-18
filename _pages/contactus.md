@@ -22,11 +22,8 @@ Calgary AI is based out of the main University of Calgary campus. Further inform
 
 There are a number of potential supervisors within Calgary AI, please see the individual faculty member's website for information on how to apply to their lab.
 
-### Media
-Please reach out to the media contact listed on [Yani Ioannou's U Calgary profile](https://profiles.ucalgary.ca/yani-ioannou).
-
 ### Potential Collaborators/Industry Partners
-Please reach out by e-mail directly to any of our faculty, or to Yani Ioannou if you have more general questions about Calgary AI and collaboration/potential funding opportunities.
+Please reach out by e-mail directly to any of our faculty, or to the Calgary AI email below if you have more general questions about Calgary AI and collaboration/potential funding opportunities. 
 
 <div class="social">
     <div class="contact-icons">

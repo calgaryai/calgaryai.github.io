@@ -9,4 +9,4 @@ social: false  # includes social icons at the bottom of the page
 ---
 **Calgary Artificial Intelligence**
 
-Promoting AI research, education and development in Calgary
+An initiative of the University of Calgary to promote AI research, education and development in Calgary

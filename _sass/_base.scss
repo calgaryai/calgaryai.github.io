@@ -363,7 +363,7 @@ footer.sticky-bottom {
 
     .row {
       display: flex;
-      align-items: center;
+      align-items: stretch;
     }
   }
 
@@ -443,12 +443,13 @@ footer.sticky-bottom {
 
     .row {
       display: flex;
-      align-items: center;
+      align-items: stretch;
     }
   }
 
   .grid-item {
     width: 15em;
+    height: 40em;
     margin-bottom: 0.5em;
     margin-left: 0.25em;
     margin-right: 0.25em;
@@ -466,6 +467,7 @@ footer.sticky-bottom {
   .categories {
     .grid-item {
       width: auto;
+      height: auto;
     }
   }
 
@@ -515,7 +517,7 @@ footer.sticky-bottom {
 
     .row {
       display: flex;
-      align-items: center;
+      align-items: stretch
     }
   }
 
@@ -592,7 +594,7 @@ footer.sticky-bottom {
 
     .row {
       display: flex;
-      align-items: center;
+      align-items: stretch;
     }
   }
 

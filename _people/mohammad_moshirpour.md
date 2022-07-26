@@ -9,7 +9,6 @@ img: assets/img/people/mohammadmoshirpour.jpg
 redirect: https://moshirpour.com/
 email: mmoshirp@ucalgary.ca
 scholar_userid: 6RFVuYoAAAAJ
-linkedin_username: mohammad-moshirpour-319aa813
 category: [Software Engineering]
 show: true
 ---

@@ -5,7 +5,7 @@ description: Advanced Imaging and Artificial Intelligence Lab
 img: assets/img/ai2logo.png
 redirect: https://www.ai2lab.ca
 faculty: /people/robertosouza.md
-category: [Electrical and Software Engineering]
+category: [Electrical and Software Engineering, Biomedical Engineering]
 twitter_username: lab_ai2
 website_url: https://www.ai2lab.ca
 ---

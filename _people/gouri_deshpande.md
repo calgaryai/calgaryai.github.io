@@ -11,6 +11,7 @@ github: MaQuest
 email: gouri.deshpande@ucalgary.ca
 scholar_userid: pf18racAAAAJ
 twitter_username: gouriginde
+linkedin_username: deshpandegouri
 category: [Software Engineering]
 show: true
 ---

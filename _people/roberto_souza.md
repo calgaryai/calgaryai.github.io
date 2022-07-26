@@ -11,6 +11,7 @@ github: rmsouza01
 email: roberto.medeirosdeso@ucalgary.ca
 scholar_userid: G2V4oBIAAAAJ
 twitter_username: ai2lab
+linkedin_username: roberto-medeiros-souza
 category: [Computer Vision, Machine Learning, Medical Imaging]
 show: true
 ---

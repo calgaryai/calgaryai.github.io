@@ -5,7 +5,7 @@ permalink: /labs/
 description: Calgary AI Research Labs
 nav: true
 nav-order: 2
-display_categories: [Geomatics Engineering, Electrical and Software Engineering, Biomedical Engineering, Hotchkiss Brain Institute]
+display_categories: [Geomatics Engineering, Electrical and Software Engineering, Biomedical Engineering]
 ---
 
 <div class="labs">

@@ -11,6 +11,7 @@ linkedin_username:
 github: hatemaz
 email: hatem.abouzeid@ucalgary.ca
 scholar_userid: Zf_JnaoAAAAJ
+linkedin_username: hatemraz
 category: [Applied Machine Learning]
 show: true
 ---

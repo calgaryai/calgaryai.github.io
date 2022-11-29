@@ -3,7 +3,7 @@ layout: page
 name:  Biometric Technologies Lab
 description: Biometric Technologies Lab
 img: assets/img/biometrics_technology_lab.png
-redirect: [Biometric Technologies Lab](https://pages.cpsc.ucalgary.ca/~marina/HomePHP/index.php/block/24.html)
+redirect: https://pages.cpsc.ucalgary.ca/~marina/HomePHP/index.php/block/24.html
 faculty: /people/marina_gavrilova.md
 category: [Computer Science]
 website_url: https://pages.cpsc.ucalgary.ca/~marina/HomePHP/index.php/block/24.html

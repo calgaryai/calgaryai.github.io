@@ -1,8 +1,8 @@
 ---
 layout: page
 name:  Biometric Technologies Lab
-description: Advanced Imaging and Artificial Intelligence Lab
-img: assets/img/ai2logo.png
+description: Biometric Technologies Lab
+img: assets/img/biometrics_technology_lab.png
 redirect: [Biometric Technologies Lab](https://pages.cpsc.ucalgary.ca/~marina/HomePHP/index.php/block/24.html)
 faculty: /people/marina_gavrilova.md
 category: [Computer Science]

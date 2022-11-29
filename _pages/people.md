@@ -5,8 +5,8 @@ permalink: /people/
 description: Faculty Members
 nav: true
 nav-order: 1
-research_categories: [Computer Vision, Machine Learning, Applied Machine Learning, Medical Imaging, AI and Law, Ethical AI, Algorithmic Bias, Environmental Impact of AI, Cybersecurity, Software Engineering]
-affiliations: [Electrical and Software Engineering, Biomedical Engineering, Geomatics Engineering, Faculty of Law]
+research_categories: [Computer Vision, Machine Learning, Applied Machine Learning, Medical Imaging, AI and Law, Ethical AI, Algorithmic Bias, Environmental Impact of AI, Cybersecurity, Software Engineering, Biometrics]
+affiliations: [Electrical and Software Engineering, Biomedical Engineering, Geomatics Engineering, Faculty of Law, Computer Science]
 ---
 
 <div class="people">

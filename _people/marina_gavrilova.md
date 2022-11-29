@@ -9,6 +9,7 @@ img: assets/img/people/marinagavrilova.jpg
 redirect: https://pages.cpsc.ucalgary.ca/~marina/HomePHP/index.php
 email: mariana.pinheirobent@ucalgary.ca
 scholar_userid: q3vR88gAAAAJ
+linkedin_username: dr-marina-gavrilova-a9860b
 category: [Computer Vision, Applied Machine Learning, Biometrics]
 show: true
 ---

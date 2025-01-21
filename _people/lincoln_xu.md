@@ -10,6 +10,6 @@ redirect: https://www.gsilab.ca/
 linkedin_username: linlinxu618
 email: linlin.xu@ucalgary.ca
 scholar_userid: GCDEWI5IAAAAJ&hl
-category: [Machine Learening, Environmental monitoring]
+category: [Machine Learning, Environmental monitoring]
 show: true
 ---

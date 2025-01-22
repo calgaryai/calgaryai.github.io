@@ -4,7 +4,7 @@ firstname: Lincoln
 lastname: Xu
 pronouns: he/him
 title: Assistant Professor
-affiliations: [Geomatics]
+affiliations: [Geomatics Engineering]
 img: assets/img/people/lincolnxu.jpg
 redirect: https://www.gsilab.ca/
 linkedin_username: linlinxu618

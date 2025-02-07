@@ -40,4 +40,4 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64,linux/arm64/v8
-          tags: amirpourmand/al-foliodocker:v0.13.3
+          tags: amirpourmand/al-foliodocker:v0.12.1

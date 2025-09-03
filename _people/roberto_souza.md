@@ -3,7 +3,7 @@ layout: page
 firstname: Roberto
 lastname: Souza
 pronouns: he/him
-title: Assistant Professor
+title: Associate Professor
 affiliations: [Electrical and Software Engineering]
 img: assets/img/people/robertosouza.jpg
 redirect: https://ai2lab.ca

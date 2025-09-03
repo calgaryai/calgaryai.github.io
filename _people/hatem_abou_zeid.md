@@ -3,7 +3,7 @@ layout: page
 firstname: Hatem
 lastname: Abou-Zeid
 pronouns: he/him
-title: Assistant Professor
+title: Associate Professor
 affiliations: [Electrical and Software Engineering]
 img: assets/img/people/hatemabouzeid.jpg
 redirect: https://www.hatem-abouzeid.com/

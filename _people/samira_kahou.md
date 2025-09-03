@@ -3,7 +3,7 @@ layout: page
 firstname: Samira
 lastname: Ebrahimi Kahou
 pronouns: she/her
-title: Assistant Professor
+title: Associate Professor
 affiliations: [Electrical and Software Engineering]
 img: assets/img/people/samirakahou.jpg
 redirect: https://saebrahimi.github.io

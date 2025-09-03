@@ -1,3 +1,4 @@
+---
 layout: post
 date: 2025-09-03 09:00:00
 inline: true
